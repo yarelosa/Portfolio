@@ -1,0 +1,53 @@
+.fadeOut{
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+@keyframes fadeOut {
+  from{
+    height: 754px;
+  }
+  to{
+    height: 60px;
+  }
+}
+
+.fadeOut2{
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeOut2;
+  animation-name: fadeOut2;
+}
+
+@keyframes fadeOut2 {
+  from{
+    margin-top: 30%;
+  }
+  to{
+    margin-top: 0;
+  }
+}
+
+.fadeIn{
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
