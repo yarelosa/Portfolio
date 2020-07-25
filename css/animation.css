@@ -10,6 +10,7 @@
 @keyframes fadeOut {
   from{
     height: 754px;
+    opacity: 75%;
   }
   to{
     height: 60px;

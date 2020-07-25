@@ -73,10 +73,14 @@ p{
   font-size: 20px;
   font-weight: 700;
   z-index: 200;
-  opacity: 65%;
+  opacity: 75%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 3px 3px 15px rgba(112,112,112,18%);
+}
+.header:hover {
+  opacity: 100%;
 }
 
 .header_icon{
@@ -131,13 +135,7 @@ li:hover{
   color: var(--rosaPalo);
 }
 .body_container{
-  /* display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template: repeat(4,1fr)/ 1fr;
-  grid-gap: 150px; */
   margin: 100px;
-  /* box-sizing: content-box; */
 }
 .introduce-container{
   display: grid;
@@ -150,7 +148,7 @@ li:hover{
   grid-column: 1/span 1;
 }
 .introduce_img img{
-  max-height: 550px;
+  max-width: 90%;
 }
 .introduce_text{
   grid-column: 2/span 1;
@@ -170,7 +168,7 @@ li:hover{
   grid-column: 2/span 1;
 }
 .story_img img{
-  max-height: 600px;
+  max-width: 100%;
 }
 .story_social{
   margin: 20px 0;
@@ -215,6 +213,7 @@ li:hover{
   font-weight: bold;
   width: 600px;
   height: 230px;
+  border-radius: 20px;
   box-shadow: 3px 3px 15px rgba(112,112,112,18%);
   justify-self: center;
 }
@@ -230,7 +229,7 @@ li:hover{
   grid-template: auto 1fr/ 1fr 1fr;
   justify-items: center;
   align-items: center;
-  margin: 80px 0;
+  margin: 150px 0;
   grid-row-gap: 60px;
 }
 .contact-container h2{
@@ -245,4 +244,34 @@ li:hover{
   grid-column: 2 /span 1;
   grid-row: 2 / span 1;
   text-align: center;
+}
+.footer-container{
+  padding: 40px 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  height: 330px;
+  background-color: var(--grisBG);
+  background-image: url('../assets/img/mascarafooter.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--gris);
+  box-shadow: 3px 3px 15px rgba(112,112,112,18%);
+}
+.footer-contact-social img{
+  max-width: 40px;
+  padding-right: 20px;
+}
+.copyright{
+  justify-self: end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright p, .copyright img{
+  align-content: center;
+  margin-left: 20px;
+  max-height: 50px;
 }
