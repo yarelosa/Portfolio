@@ -10,22 +10,23 @@
   <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
-  <header class="header">
+  <header class="header fadeOut">
     <figure class="header_icon">
-      <img src="img/icon.png" alt="icono">
+      <img src="assets/icons/icon.png" alt="icono">
     </figure>
     <nav class="navbar">
       <ul class="navbar_menu">
         <a href="index.html"><li>Inicio</li></a>
-        <a href=""><li>Trabajo</li></a>
+        <a href="work.html"><li>Trabajo</li></a>
         <a href="about.html"><li>Sobre Mi</li></a>
       </ul>
     </nav>
   </header>
 
-  <section class="introduce">
+<div class="body_container">
+  <section class="introduce-container">
     <figure class="introduce_img">
-      <img src="img/bigimage.png" alt="Foto de presentacion">
+      <img src="assets/img/bigimage.png" alt="Foto de presentacion">
     </figure>
     <div class="introduce_text">
       <h1>¡Hola! <br>Soy Yareli</h1>
@@ -34,32 +35,80 @@
     </div>
   </section>
 
-  <section class="story">
+  <section class="story-container">
     <div class="story_text">
       <p>Estudié en la ciudad de Puebla la carrera de Ingeniería en Ciencias de la Computación.
-        Me he enfocado en pulir mis habilidades en el área de diseño UI enfocado al diseño
+        Me he enfocado en pulir mis habilidades en el área de diseño UI orientado al diseño
         centrado en el usuario. He trabajado como desarrollador web y tengo experiencia en maquetado web.
         <br><br>Además me encanta trabajar en actividades creativas y diseño visual, donde en mis ratos libres
         exploro el área de la ilustración. Puedes ver un poco de mi trabajo en:</p>
       <div class="story_social">
         <div class="story_social_behance">
-          <img name="imgbehance" src="img/behance.svg" alt="behance icon">
-          <h4><b>BEHANCE</b></h4>
+          <a href="https://www.behance.net/yareliramos">
+            <img name="imgbehance" src="assets/icons/behance.png" alt="behance icon">
+            <h4><b>BEHANCE</b></h4>
+          </a>
         </div>
         <div class="story_social_insta">
-          <img name="imgbehance" src="img/insta.svg" alt="insta icon">
-          <h4><b>INSTAGRAM</b></h4>
+          <a href="https://www.instagram.com/bubbleart.10/">
+            <img name="imgbehance" src="assets/icons/instagram.png" alt="insta icon">
+            <h4><b>INSTAGRAM</b></h4>
+          </a>
         </div>
         <div class="story_social_github">
-          <img name="imgbehance" src="img/github.svg" alt="gihub icon">
-          <h4><b>GITHUB</b></h4>
+          <a href="https://github.com/yarelosa">
+            <img name="imgbehance" src="assets/icons/github.png" alt="gihub icon">
+            <h4><b>GITHUB</b></h4>
+          </a>
         </div>
       </div>
     </div>
     <figure class="story_img">
-      <img src="img/ibm.png" alt="My Story img">
+      <img src="assets/img/ibm.png" alt="My Story img">
     </figure>
-  </section>
+    </section>
+
+    <section class="skills-container">
+      <h3>Algunas de mis habilidades</h3>
+      <figure class="skills_img">
+        <img src="assets/img/hexagonosskills.png" alt="Conocimientos y habilidades imagen">
+      </figure>
+      <div class="skills_card">
+        <ul class="list_container">
+          <div class="list_items_box">
+            <li>-Adobe XD</li>
+            <li>-Photoshop</li>
+            <li>-Illustrator</li>
+          </div>
+          <div class="list_items_box">
+            <li>-HTML / DOM</li>
+            <li>-CSS /CSS Grid</li>
+            <li>-Sass</li>
+            <li>-Javascript</li>
+            <li>-Bootstrap</li>
+          </div>
+          <div class="list_items_box">
+            <li>-Codeigniter</li>
+            <li>-Magento 2</li>
+            <li>-Ionic</li>
+          </div>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact-container">
+      <h2>¡Hablemos!</h2>
+      <div class="contact_phone">
+        <img src="assets/icons/phone.png" alt="phone icon">
+        <p>+52 2411190607</p>
+      </div>
+      <div class="contact_mail">
+        <img src="assets/icons/mail.png" alt="mail icon">
+        <p>yareli.ramosfr@gmail.com</p>
+      </div>
+      </div>
+    </section>
+</div>
 
 </body>
 </html>
