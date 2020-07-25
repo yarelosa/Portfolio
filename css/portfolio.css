@@ -143,6 +143,7 @@ li:hover{
   align-items: center;
   grid-template-columns: repeat(2,minmax(400px,1fr));
   grid-gap: 90px;
+  padding: 40px 0;
 }
 .introduce_img{
   grid-column: 1/span 1;
@@ -159,7 +160,7 @@ li:hover{
   align-items: center;
   grid-template-columns: 1fr minmax(350px,550px);
   grid-gap: 90px;
-  margin: 80px 0;
+  padding: 80px 0;
 }
 .story_text{
   grid-column: 1 /span 1;
@@ -185,13 +186,13 @@ li:hover{
 }
 .skills-container{
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: repeat(2, minmax(350px,1fr));
   grid-template-rows: auto 1fr;
   justify-content: center;
   align-items: center;
   grid-row-gap: 60px;
   grid-column-gap: 80px;
-  margin: 80px 0;
+  padding: 80px 0;
 }
 .skills-container h3{
   grid-column: 1/span 2;
@@ -201,9 +202,12 @@ li:hover{
   grid-column: 1 / span 1;
   grid-row: 2 /span 1;
 }
+.skills_img img{
+  max-width: 60%;
+}
 .skills_card{
-  grid-column: 2 /span 2;
-  grid-row: 2 / 3;
+  grid-column: 2 /span 1;
+  grid-row: 2 / span 1;
   background-color: white;
   background-image: url('../assets/img/mascarasmall.png');
   background-repeat: no-repeat;
@@ -226,7 +230,7 @@ li:hover{
 }
 .contact-container{
   display: grid;
-  grid-template: auto 1fr/ 1fr 1fr;
+  grid-template: auto 1fr/ repeat(2,minmax(200px,1fr));
   justify-items: center;
   align-items: center;
   margin: 150px 0;
@@ -248,7 +252,7 @@ li:hover{
 .footer-container{
   padding: 40px 70px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2,minmax(200px,1fr));
   justify-content: space-between;
   align-items: center;
   height: 330px;
