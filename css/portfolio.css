@@ -112,16 +112,14 @@ li:hover{
   z-index: 20;
   height: inherit;
 }
-
 .cover_detail_text{
   text-align: right;
   margin-right: 80px;
 }
-
 .cover_details{
-  width: 1173px;
+  width: 100%;
   margin-left: -360px;
-  background-image: url(../assets/img/iam.png);
+  background-image: url('../assets/img/iam.png');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
