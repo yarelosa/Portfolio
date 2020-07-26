@@ -31,7 +31,13 @@
     grid-template-rows: repeat(3,auto);
   }
 }
-@media screen and (width: 850px) {
+@media screen and (max-width: 850px) {
+  .cover_img{
+    display: none;
+  }
+  .cover_details{
+    margin-left: 0;
+  }
   p{
     font-size: 18px;
   }
