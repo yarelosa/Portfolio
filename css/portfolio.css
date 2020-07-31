@@ -230,6 +230,68 @@ li:hover{
 .list_items_box li{
   cursor: context-menu;
 }
+
+.experience-container{
+  display: grid;
+  grid-template: repeat(4,auto) /1fr 1fr 1fr;
+  grid-template-areas: " tittle tittle tittle"
+                       "experience_text  experience_text experience_text "
+                       "experience_social experience_social experience_social"
+                       "experience_item1 experience_item2 experience_item3";
+  margin: 100px 70px;
+  grid-gap: 30px;
+}
+
+.experience_social{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.experience_social div a{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.experience_tittle{
+  grid-area: tittle;
+}
+.experience_text{
+  grid-area: experience_text;
+}
+.experience_social{
+  grid-area: experience_social;
+}
+.experience_item1{
+  grid-area: experience_item1;
+}
+.experience_item2{
+  grid-area: experience_item2;
+}
+.experience_item3{
+  grid-area: experience_item3;
+}
+
+.blog-container{
+  display: grid;
+  grid-template: auto auto /1fr;
+  grid-template-areas: "blog_text"
+                       "blog_social";
+  margin: 70px;
+  grid-gap: 30px;
+}
+
+.blog_text{
+  grid-area: blog_text;
+}
+
+.blog_social{
+  grid-area: blog_social;
+}
+.blog_social a {
+  display: flex;
+  align-items: center;
+}
 .contact-container{
   display: grid;
   grid-template: auto auto/ repeat(2,1fr);
